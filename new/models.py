@@ -2,7 +2,7 @@ from django.db import models
 from django.contrib.auth.models import User
 from django.utils import timezone
 from django.urls import reverse
-
+#u
 class Usermodel(models.Model):
     user_name = models.CharField(unique=True,max_length=50)
     password = models.CharField(max_length=50)
