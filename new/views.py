@@ -9,7 +9,7 @@ from django import forms
 from .forms import UserRegistration, PriForm
 from .models import Usermodel, Privillages
 from django.db import connection
-
+#g
 #to add pri
 def add_pri(request):
     print(request.session.get('user'),'          bjkebskjb')
